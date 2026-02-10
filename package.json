@@ -13,5 +13,9 @@
 	},
 	"workspaces": [
 		"app/*"
-	]
+	],
+	"dependencies": {
+		"vercel": "^50.14.0",
+		"warn": "^1.0.1"
+	}
 }

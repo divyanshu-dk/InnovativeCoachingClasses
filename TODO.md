@@ -1,9 +1,4 @@
-# Task: Integrate PNG Image on Home Page and Update Project Colors
+# TODO: Fix Vercel Build Error
 
-## Steps to Complete
-- [ ] Update tailwind.config.js with new warm, playful color palette based on image (orange #E65A2E, sky blue #5CA9E6, yellow #F4C542, green #6BBF59, cream #F2EBDC)
-- [ ] Modify HomePage.jsx to use the PNG image as hero background
-- [ ] Adjust HomePage.jsx colors to match new palette
-- [ ] Add playful effects to HomePage.jsx (bouncing icons, vibrant animations)
-- [ ] Update icons in HomePage.jsx to more fun ones (e.g., Star, Heart, Zap)
-- [ ] Test changes and ensure global color updates work across project
+- [x] Update app/web/package.json: Change build script to "vite build --outDir dist" and remove the generate-llms.js command
+- [x] Update app/web/vercel.json: Set "outputDirectory" to "dist"
